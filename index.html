@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/sketchy/bootstrap.min.css" integrity="sha384-RxqHG2ilm4r6aFRpGmBbGTjsqwfqHOKy1ArsMhHusnRO47jcGqpIQqlQK/kmGy9R" crossorigin="anonymous">
-    <script src="js/main.js" defer></script>
+    <script src="/js/main.js" defer></script>
 </head>
 <body>
   <header>
@@ -15,23 +15,24 @@
         <div class="drop">
             <button class="nav-btn">&#9776;</button>
             <div class="nav-list">
-                <a href="#">Головна</a>
-                <a href="#">Портфоліо</a>
-                <a href="#">біо</a>
+                <a href="#home">Головна</a>
+                <a href="#portfolio">Портфоліо</a>
+                <a href="#contact">Контакти</a>
+                <a href="#about">біо</a>
             </div>
         </div>
     </div>
   </header>
 
   <!-- Бекграунд -->
-  <div class="background-container">
+  <div class="background-container" id="home">
     <h1>Іванна Власюк</h1>
     <h3>Пейзажний фотограф</h3>
   </div>
   <div class="up">.</div>
   <div class="main">
     <!-- Портфоліо -->
-    <section class="portfolio-section">
+    <section class="portfolio-section" id="portfolio">
       <h2>Портфоліо</h2>
       <img class="portfolio-gallery">
           <img class="portfolio-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTXWy3BqEWRa_VklO_AJzbHbaZ68E8065ArQ&usqp=CAU" alt="Фото 1">
@@ -41,7 +42,7 @@
       </div>
     </section>
     <!-- Контакти -->
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
       <h2>Контакти</h2>
       <div class="contact-info">
           <p>Email: example@example.com</p>
@@ -56,7 +57,7 @@
     </section>
   
     <!-- біографія -->
-    <section class="bio-section">
+    <section class="bio-section" id="about">
     <div class="bio-about">
         <h3 class="h3-1">Про мене:</h3>
         <p class="p-1">Це абзац. Натисніть, щоб додати та змінити контент. Просто натисніть «Редагувати текст» або клацніть двічі, щоб додати текст і налаштувати шрифт. Ви можете перетягти абзац у будь-яке місце на сторінці. Тут ви можете написати історію та розказати користувачам більше про себе.</p>
