@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+html {
+    font-family: Trebuchet MS, Helvetica;
+}
+
 /* Стилі для header */
 
 .logo{
